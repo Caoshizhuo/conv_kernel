@@ -1,0 +1,114 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/modelsim_ase/tcl/vsim/pref.tcl 
+# do conv_kernel_top_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\intelFPGA_lite\18.1\modelsim_ase\win32aloem\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\intelFPGA_lite\18.1\modelsim_ase\win32aloem\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel {C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitsef.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_lut_bitsef
+# 
+# Top level modules:
+# 	conv_lut_bitsef
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel {C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitscd.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_lut_bitscd
+# 
+# Top level modules:
+# 	conv_lut_bitscd
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel {C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitsab.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_lut_bitsab
+# 
+# Top level modules:
+# 	conv_lut_bitsab
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel {C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits89.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_lut_bits89
+# 
+# Top level modules:
+# 	conv_lut_bits89
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel {C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits67.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_lut_bits67
+# 
+# Top level modules:
+# 	conv_lut_bits67
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel {C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits45.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_lut_bits45
+# 
+# Top level modules:
+# 	conv_lut_bits45
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel {C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits23.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_lut_bits23
+# 
+# Top level modules:
+# 	conv_lut_bits23
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel {C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits01.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_lut_bits01
+# 
+# Top level modules:
+# 	conv_lut_bits01
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel {C:/Users/caoshizhuo/Desktop/conv_kernel/conv_kernel.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_kernel
+# 
+# Top level modules:
+# 	conv_kernel
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel_top {C:/Users/caoshizhuo/Desktop/conv_kernel_top/conv_kernel_top.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_kernel_top
+# 
+# Top level modules:
+# 	conv_kernel_top
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel_top {C:/Users/caoshizhuo/Desktop/conv_kernel_top/conv_kernel_top_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module conv_kernel_top_tb
+# 
+# Top level modules:
+# 	conv_kernel_top_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  conv_kernel_top_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps conv_kernel_top_tb 
+# Loading work.conv_kernel_top_tb
+# Loading work.conv_kernel_top
+# Loading work.conv_kernel
+# Loading work.conv_lut_bits01
+# Loading work.conv_lut_bits23
+# Loading work.conv_lut_bits45
+# Loading work.conv_lut_bits67
+# Loading work.conv_lut_bits89
+# Loading work.conv_lut_bitsab
+# Loading work.conv_lut_bitscd
+# Loading work.conv_lut_bitsef
+# ** Warning: (vsim-3017) C:/Users/caoshizhuo/Desktop/conv_kernel_top/conv_kernel_top_tb.v(39): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /conv_kernel_top_tb/u_conv_kernel_top
+# ** Warning: (vsim-3722) C:/Users/caoshizhuo/Desktop/conv_kernel_top/conv_kernel_top_tb.v(39): [TFMPC] - Missing connection for port 'dout'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module conv_kernel_top_tb at C:/Users/caoshizhuo/Desktop/conv_kernel_top/conv_kernel_top_tb.v line 26
+# Simulation Breakpoint: Break in Module conv_kernel_top_tb at C:/Users/caoshizhuo/Desktop/conv_kernel_top/conv_kernel_top_tb.v line 26
+# MACRO ./conv_kernel_top_run_msim_rtl_verilog.do PAUSED at line 26
+restart
+# ** Warning: (vsim-3017) C:/Users/caoshizhuo/Desktop/conv_kernel_top/conv_kernel_top_tb.v(39): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /conv_kernel_top_tb/u_conv_kernel_top
+# ** Warning: (vsim-3722) C:/Users/caoshizhuo/Desktop/conv_kernel_top/conv_kernel_top_tb.v(39): [TFMPC] - Missing connection for port 'dout'.
+run
+run
+run
+run

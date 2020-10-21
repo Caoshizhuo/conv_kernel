@@ -1,0 +1,115 @@
+|conv_kernel
+din[0] => din[0].IN8
+din[1] => din[1].IN8
+din[2] => din[2].IN8
+din[3] => din[3].IN8
+dout[0] <= dout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[1] <= dout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[2] <= dout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[3] <= dout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[4] <= dout[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[5] <= dout[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[6] <= dout[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[7] <= dout[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[8] <= dout[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[9] <= dout[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[10] <= dout[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout[11] <= dout[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+resetn => dout.OUTPUTSELECT
+clk => dout[0]~reg0.CLK
+clk => dout[1]~reg0.CLK
+clk => dout[2]~reg0.CLK
+clk => dout[3]~reg0.CLK
+clk => dout[4]~reg0.CLK
+clk => dout[5]~reg0.CLK
+clk => dout[6]~reg0.CLK
+clk => dout[7]~reg0.CLK
+clk => dout[8]~reg0.CLK
+clk => dout[9]~reg0.CLK
+clk => dout[10]~reg0.CLK
+clk => dout[11]~reg0.CLK
+
+
+|conv_kernel|conv_lut_bits01:u_conv_lut_bits01
+bit_1 => Decoder0.IN0
+bit_2 => Decoder0.IN1
+bit_3 => Decoder0.IN2
+bit_4 => Decoder0.IN3
+dout_bit1 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dout_bit2 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|conv_kernel|conv_lut_bits23:u_conv_lut_bits23
+bit_1 => Decoder0.IN0
+bit_2 => Decoder0.IN1
+bit_3 => Decoder0.IN2
+bit_4 => Decoder0.IN3
+dout_bit1 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dout_bit2 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|conv_kernel|conv_lut_bits45:u_conv_lut_bits45
+bit_1 => Decoder0.IN0
+bit_2 => Decoder0.IN1
+bit_3 => Decoder0.IN2
+bit_4 => Decoder0.IN3
+dout_bit1 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dout_bit2 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|conv_kernel|conv_lut_bits67:u_conv_lut_bits67
+bit_1 => Decoder0.IN0
+bit_2 => Decoder0.IN1
+bit_3 => Decoder0.IN2
+bit_4 => Decoder0.IN3
+dout_bit1 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dout_bit2 <= <GND>
+
+
+|conv_kernel|conv_lut_bits89:u_conv_lut_bits89
+bit_1 => ~NO_FANOUT~
+bit_2 => ~NO_FANOUT~
+bit_3 => ~NO_FANOUT~
+bit_4 => ~NO_FANOUT~
+dout_bit1 <= <GND>
+dout_bit2 <= <GND>
+
+
+|conv_kernel|conv_lut_bitsab:u_conv_lut_bitsab
+bit_1 => Decoder0.IN0
+bit_2 => Decoder0.IN1
+bit_3 => Decoder0.IN2
+bit_4 => Decoder0.IN3
+dout_bit1 <= <GND>
+dout_bit2 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|conv_kernel|conv_lut_bitscd:u_conv_lut_bitscd
+bit_1 => Decoder0.IN0
+bit_2 => Decoder0.IN1
+bit_3 => Decoder0.IN2
+bit_4 => Decoder0.IN3
+dout_bit1 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dout_bit2 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|conv_kernel|conv_lut_bitsef:u_conv_lut_bitsef
+bit_1 => Decoder0.IN0
+bit_2 => Decoder0.IN1
+bit_3 => Decoder0.IN2
+bit_4 => Decoder0.IN3
+dout_bit1 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dout_bit2 <= <GND>
+
+

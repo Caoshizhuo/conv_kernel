@@ -1,0 +1,195 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\caoshizhuo\Desktop\conv_kernel\simulation\modelsim
+vconv_kernel
+I9B;7UWPEU?nSA;6;TCzbn0
+Vk3PaK9E;8bz;acOT^?FoB3
+Z1 dC:\Users\caoshizhuo\Desktop\conv_kernel\simulation\modelsim
+w1603195698
+8C:/Users/caoshizhuo/Desktop/conv_kernel/conv_kernel.v
+FC:/Users/caoshizhuo/Desktop/conv_kernel/conv_kernel.v
+L0 14
+Z2 OV;L;10.0c;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/caoshizhuo/Desktop/conv_kernel -O0
+!s100 <4RCeo`CJGS0lc:aQH1?z3
+!s85 0
+!s108 1603195900.375000
+!s107 C:/Users/caoshizhuo/Desktop/conv_kernel/conv_kernel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/caoshizhuo/Desktop/conv_kernel|C:/Users/caoshizhuo/Desktop/conv_kernel/conv_kernel.v|
+!s101 -O0
+vconv_kernel_tb
+!s100 AE@InH__gJ2eZ2=SYC;nU0
+IWVMObVC01OR9kPz?oSU7L0
+V27e?I^VXXlUa:AoflJlOB3
+R1
+w1603195600
+8C:/Users/caoshizhuo/Desktop/conv_kernel/conv_kernel_tb.v
+FC:/Users/caoshizhuo/Desktop/conv_kernel/conv_kernel_tb.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1603195902.675000
+!s107 C:/Users/caoshizhuo/Desktop/conv_kernel/conv_kernel_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/caoshizhuo/Desktop/conv_kernel|C:/Users/caoshizhuo/Desktop/conv_kernel/conv_kernel_tb.v|
+!s101 -O0
+R3
+R4
+vconv_lut_bits01
+IlShH4:ecUU@YOWKZbi;;j1
+VYk@c32CH8hm>[5Y9C8TT53
+R1
+w1603118225
+8C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits01.v
+FC:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits01.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 LiL<h;2kFc70Ydh8m70NB0
+!s85 0
+!s108 1603195900.695000
+!s107 C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits01.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/caoshizhuo/Desktop/conv_kernel|C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits01.v|
+!s101 -O0
+vconv_lut_bits23
+IV;e=e@;mNI^kzLRMW_]Cf2
+Vz;X9VZ3Vg8VHeQ1lA:YzT0
+R1
+w1603118228
+8C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits23.v
+FC:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits23.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 BT[<oU9jAaN[O@^mCS3aC1
+!s85 0
+!s108 1603195900.925000
+!s107 C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits23.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/caoshizhuo/Desktop/conv_kernel|C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits23.v|
+!s101 -O0
+vconv_lut_bits45
+I>4F6_0jR;A0Fm:4OJfDYA0
+VTk`mRFL;SZcTZJEMg;Zzj1
+R1
+w1603118243
+8C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits45.v
+FC:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits45.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 gREgC_Z9_bXS44zoCN`IZ0
+!s85 0
+!s108 1603195901.155000
+!s107 C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits45.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/caoshizhuo/Desktop/conv_kernel|C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits45.v|
+!s101 -O0
+vconv_lut_bits67
+I7@miY@T_lgE9jVXaLB20Q0
+V=F1Y7K<>e5egRdEGHl2:P1
+R1
+w1603118255
+8C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits67.v
+FC:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits67.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 hQ96B;0`aZm[lKHa80`V=0
+!s85 0
+!s108 1603195901.395000
+!s107 C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits67.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/caoshizhuo/Desktop/conv_kernel|C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits67.v|
+!s101 -O0
+vconv_lut_bits89
+INDfC1f`Cn0FSI7G4HT9_@0
+VzVV8b^Bj71=nB[6FmL>Pj0
+R1
+w1603118266
+8C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits89.v
+FC:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits89.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 k0G0J^a0C^`f6l`<53<Z[0
+!s85 0
+!s108 1603195901.655000
+!s107 C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits89.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/caoshizhuo/Desktop/conv_kernel|C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bits89.v|
+!s101 -O0
+vconv_lut_bitsab
+IR6nO3e`7KA1^OjcW5dJNR0
+Vk>Oz5FY@j?Q;TT9k5]I<:3
+R1
+w1603118274
+8C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitsab.v
+FC:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitsab.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 j7OAbF:76hVdj=d2^mRD@1
+!s85 0
+!s108 1603195901.925000
+!s107 C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitsab.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/caoshizhuo/Desktop/conv_kernel|C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitsab.v|
+!s101 -O0
+vconv_lut_bitscd
+ITR8Z6SBM[iKRD]n[1CJnY0
+VJoEKc]dAn2Z8aII^i^QPd3
+R1
+w1603118304
+8C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitscd.v
+FC:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitscd.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 bi]Fn04OHJh5KHZhT0Nm10
+!s85 0
+!s108 1603195902.185000
+!s107 C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitscd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/caoshizhuo/Desktop/conv_kernel|C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitscd.v|
+!s101 -O0
+vconv_lut_bitsef
+ILbo]>jPn@g8JM<ZnWhIo=0
+Vi]]jkz`LaNifS[G?maFOC3
+R1
+w1603118293
+8C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitsef.v
+FC:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitsef.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 hfI0kLbIG^7@@gioD1z;93
+!s85 0
+!s108 1603195902.455000
+!s107 C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitsef.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/caoshizhuo/Desktop/conv_kernel|C:/Users/caoshizhuo/Desktop/conv_kernel/conv_lut_bitsef.v|
+!s101 -O0

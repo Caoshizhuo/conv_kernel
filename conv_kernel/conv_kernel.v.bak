@@ -1,0 +1,118 @@
+
+
+//***********************design conv-kernel****************************
+//author: Shizhuo cao
+//data:19:10:2020
+//
+//description:
+//
+//
+//
+//
+/////////////////////////////////////////////////////////////////////////////
+
+module conv_kernel(
+input[3:0]				din,
+output[11:0]			dout,
+
+);
+
+
+//reg wire define here
+
+wire[3:0]			din;
+wire[1:0]			dout_bit_01;// the last 2 bits,bit(0,1)
+wire[1:0]			dout_bit_23;
+wire[1:0]			dout_bit_45;
+wire[1:0]			dout_bit_67;
+wire[1:0]			dout_bit_89;
+wire[1:0]			dout_bit_ab;
+wire[1:0]			dout_bit_cd;
+wire[1:0]			dout_bit_ef;
+
+
+conv_lut_bit01 u_conv_lut_bit01(
+.bit_1(din[0]),
+.bit_2(din[1]),
+.bit_3(din[2]),
+.bit_4(din[3]),
+.dout_bit1(dout_bit_01[0]),
+.dout_bit2(dout_bit_01[1])
+);
+
+conv_lut_bit23 u_conv_lut_bit23(
+.bit_1(din[0]),
+.bit_2(din[1]),
+.bit_3(din[2]),
+.bit_4(din[3]),
+.dout_bit1(dout_bit_23[0]),
+.dout_bit2(dout_bit_23[1])
+);
+
+
+conv_lut_bit45 u_conv_lut_bit45(
+.bit_1(din[0]),
+.bit_2(din[1]),
+.bit_3(din[2]),
+.bit_4(din[3]),
+.dout_bit1(dout_bit_45[0]),
+.dout_bit2(dout_bit_45[1])
+);
+
+
+conv_lut_bit67 u_conv_lut_bit67(
+.bit_1(din[0]),
+.bit_2(din[1]),
+.bit_3(din[2]),
+.bit_4(din[3]),
+.dout_bit1(dout_bit_67[0]),
+.dout_bit2(dout_bit_67[1])
+);
+
+
+conv_lut_bit89 u_conv_lut_bit89(
+.bit_1(din[0]),
+.bit_2(din[1]),
+.bit_3(din[2]),
+.bit_4(din[3]),
+.dout_bit1(dout_bit_89[0]),
+.dout_bit2(dout_bit_89[1])
+);
+
+
+conv_lut_bitab u_conv_lut_bitab(
+.bit_1(din[0]),
+.bit_2(din[1]),
+.bit_3(din[2]),
+.bit_4(din[3]),
+.dout_bit1(dout_bit_ab[0]),
+.dout_bit2(dout_bit_ab[1])
+);
+
+
+conv_lut_bitcd u_conv_lut_bitcd(
+.bit_1(din[0]),
+.bit_2(din[1]),
+.bit_3(din[2]),
+.bit_4(din[3]),
+.dout_bit1(dout_bit_cd[0]),
+.dout_bit2(dout_bit_cd[1])
+);
+
+
+conv_lut_bitef u_conv_lut_bitef(
+.bit_1(din[0]),
+.bit_2(din[1]),
+.bit_3(din[2]),
+.bit_4(din[3]),
+.dout_bit1(dout_bit_ef[0]),
+.dout_bit2(dout_bit_ef[1])
+);
+
+
+
+
+
+
+
+endmodule 
